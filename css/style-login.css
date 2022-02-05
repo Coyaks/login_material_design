@@ -1,0 +1,53 @@
+
+@import 'mediaqueries.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root{
+    --color-primario: #3366FF;
+}
+
+.text-primario{
+    color: var(--color-primario);
+}
+.btnLogin{
+    background-color: var(--color-primario);
+    color: #fff;
+    font-weight:500;
+    height:56px;
+}
+.btnLogin:hover{
+    box-shadow: 5px 5px 10px #ccc;
+    color: #fff;
+}
+
+.box-login{
+    width: 25%;
+}
+.link-custom a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#icon-view-pass2{
+    position: relative;
+    top: 6px;
+    z-index: 2;
+    cursor: pointer;
+}
+#logoSkoy{
+    width: 100px;
+}
+
+
